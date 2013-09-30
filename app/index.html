@@ -3,138 +3,327 @@
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>APIUS.py</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width">
-        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-        <!-- build:css(.tmp) /styles/main.css -->
-        <link rel="stylesheet" href="/styles/main.css">
-        <!-- endbuild -->
-        <!-- build:js scripts/vendor/modernizr.js -->
-        <script src="bower_components/modernizr/modernizr.js"></script>
-        <!-- endbuild -->
-    </head>
-    <body>
-        <!--[if lt IE 10]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>APIUS.py</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width">
+  <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+  <!-- build:css(.tmp) /styles/main.css -->
+  <link rel="stylesheet" href="/styles/main.css">
+  <!-- endbuild -->
+  <!-- build:js scripts/vendor/modernizr.js -->
+  <script src="bower_components/modernizr/modernizr.js"></script>
+  <!-- endbuild -->
+</head>
+<body data-spy="scroll" data-target="#main-navbar">
 
+  <!--[if lt IE 10]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+  <![endif]-->
 
-        <div class="container">
+  <div class="navbar navbar-inverse navbar-fixed-top" id="main-navbar">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">APIUS.py</a>
+      </div>
+      <div class="navbar-collapse collapse">
+        <ul class="nav navbar-nav">
+          <li><a href="#evenement">Évévnement</a></li>
+          <li><a href="#horaire">Horaire</a></li>
+          <li><a href="#invites">Invités</a></li>
+          <li><a href="#commanditaires">Commanditaires</a></li>
+          <li><a href="#contact">Nous Contacter</a></li>
+        </ul>
+      </div><!--/.navbar-collapse -->
+    </div>
+  </div>
 
-            <p><a href="/en">English</a></p>
+  <div class="jumbotron">
+      <div class="container text-center">
+        <img id="logo" src="images/logo.png" />
+      </div>
+  </div>
 
-            <!--
-            <div class="header">
-                <ul class="nav nav-pills pull-right">
-                    <li class="active"><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-                <h3 class="text-muted">APIUS.py</h3>
-            </div>
-            -->
+  <div class="container anchor" id="evenement">
+    <div class="page-header">
+      <h1>Un événement à ne pas manquer! <small>Le 25-26 octobre 2013</small></h1>
+    </div>
 
-            <div class="jumbotron">
-                <h1>APIUS.py</h1>
-                <p class="lead">25-26 Octobre 2013</p>
-                <a class="btn btn-lg btn-success" href="http://eepurl.com/Ej0lX" target="_blank">S'inscrire!</a>
-            </div>
+    <div class="row">
+        <div class="col-md-7">
+            <h4></h4>
 
-            <div class="row" id="evenement">
-                <div class="col-lg-12">
-                    <h4>Un événement à ne pas manquer!</h4>
+            <p>Bienvenue aux scientifiques, développeurs, étudiants, passionnés et/ou curieux, pour le premier événement Python à Sherbrooke. Vous voulez rencontrer des gens de toutes sortes et de tous horizons, vous faire un réseau de contact professionnel ou amical, vous trouver un stage, un stagiaire ou simplement passer du bon temps avec du bon monde? C’est à APIUS.py en octobre 2013 que ça se passe!</p>
 
-                    <p>Bienvenue aux scientifiques, développeurs, étudiants, passionnés et/ou curieux, pour le premier événement Python à Sherbrooke. Vous voulez rencontrer des gens de toutes sortes et de tous horizons, vous faire un réseau de contact professionnel ou amical, vous trouver un stage, un stagiaire ou simplement passer du bon temps avec du bon monde? C’est à APIUS.py en octobre 2013 que ça se passe!</p>
+            <p>Venez écouter et rencontrer des conférenciers de marque en compagnie d’un groupe de personnes dynamiques pour discuter de technologie et enrichir vos connaissances sur le langage de programmation Python. Une introduction à ce langage est prévue afin de permettre à tous de se familiariser avec ce langage, avant d’aborder des thèmes plus poussés.</p>
 
-                    <p>Venez écouter et rencontrer des conférenciers de marque en compagnie d’un groupe de personnes dynamiques pour discuter de technologie et enrichir vos connaissances sur le langage de programmation Python. Une introduction à ce langage est prévue afin de permettre à tous de se familiariser avec ce langage, avant d’aborder des thèmes plus poussés.</p>
+            <p>Vous aurez l’opportunité de participer à la scène technologique Sherbrookoise, dans une ambiance décontractée et invitante qui a fait le succès du dernier APIUS 2013. Boissons et repas vous seront offerts gratuitement. Nous vous attendons en grand nombre!</p>
 
-                    <p>Vous aurez l’opportunité de participer à la scène technologique Sherbrookoise, dans une ambiance décontractée et invitante qui a fait le succès du dernier APIUS 2013. Boissons et repas vous seront offerts gratuitement. Nous vous attendons en grand nombre!</p>
+            <p>... et en plus, c'est totalement gratuit!</p>
+        </div>
+        <div class="col-md-5">
+          <div style="width:100%; text-align:left;" ><iframe  src="http://www.eventbrite.ca/tickets-external?eid=8557556883&ref=etckt&v=2" frameborder="0" height="214" width="100%" vspace="0" hspace="0" marginheight="5" marginwidth="5" scrolling="auto" allowtransparency="true"></iframe><div style="font-family:Helvetica, Arial; font-size:10px; padding:5px 0 5px; margin:2px; width:100%; text-align:left;" ><a style="color:#ddd; text-decoration:none;" target="_blank" href="http://www.eventbrite.ca/r/etckt">Vendez des billets</a> <span style="color:#ddd;">par l'intermédiaire de</span> <a style="color:#ddd; text-decoration:none;" target="_blank" href="http://www.eventbrite.ca?ref=etckt">Eventbrite</a></div></div>
+        </div>
+    </div>
 
-                    <p>... et en plus, c'est totalement gratuit!</p>
-                </div>
-            </div>
+    <div class="page-header anchor" id="horaire">
+      <h1>Horaire</h1>
+    </div>
 
-            <div class="row" id="organisateurs">
-                <div class="col-lg-6">
-                    <h4>Organisateurs</h4>
+    <div class="row">
 
-                    <p>Vous aimez prendre des responsabilités ou êtes capable de prendre des décisions critiques? Vous avez du temps à consacrer à un projet comme APIUS?</p>
+      <div class="col-md-6">
+        <div class="panel panel-default">
+          <div class="panel-heading">Vendredi 25 octobre</div>
 
-                    <p>Joignez l’équipe des organisateurs en <a href="http://niclupien.wufoo.com/forms/z7x3x5/" target="_blank">nous contactant</a> et recevez un superbe t-shirt! ♥</p>
-                </div>
+          <table class="table">
+            <tr>
+              <td>18h30</td>
+              <td>Accueil - Pizza et breuvage</td>
+            </tr>
+            <tr>
+              <td>19h30</td>
+              <td>Mot d'ouverture</td>
+            </tr>
+            <tr>
+              <td>20h00</td>
+              <td>Introduction à Python I</td>
+            </tr>
+            <tr>
+              <td>21h00</td>
+              <td>Introduction à Python II</td>
+            </tr>
+          </table>
+        </div>
+      </div>
 
+      <div class="col-md-6">
+        <div class="panel panel-default">
+          <div class="panel-heading">Samedi 26 octobre</div>
 
-                <div class="col-lg-6">
-                    <img src="images/organisateurs.png" alt="organisateurs" />
-                </div>
-            </div>
+          <table class="table">
+            <tr>
+              <td>9h00</td>
+              <td>Accueil - Déjeuner</td>
+            </tr>
+            <tr>
+              <td>9h30</td>
+              <td>Bloc I</td>
+            </tr>
+            <tr>
+              <td>10h40</td>
+              <td>Bloc II</td>
+            </tr>
+            <tr>
+              <td>11h50</td>
+              <td>Bloc III</td>
+            </tr>
+            <tr>
+              <td>12h40</td>
+              <td>Pause - Dîner</td>
+            </tr>
+            <tr>
+              <td>13h50</td>
+              <td>Bloc IV</td>
+            </tr>
+            <tr>
+              <td>15h00</td>
+              <td>Bloc V</td>
+            </tr>
+            <tr>
+              <td>15h40</td>
+              <td>Bloc VI</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
 
-            <div class="row" id="benevoles">
+    <div class="page-header anchor" id="invites">
+      <h1>Invités</h1>
+    </div>
 
-                <div class="col-lg-6">
-                    <img src="images/benevoles.png" alt="benevoles" />
-                </div>
-
-                <div class="col-lg-6">
-                    <h4>Bénévoles</h4>
-
-                    <p>Vous aimeriez vous impliquer dans un projet d’envergure, rencontrer des gens d’influence, mais vous avez moins de temps à y consacrer? Aidez-nous à réaliser APIUS.py en devenant bénévole. Vous recevrez, tout comme les organisateurs, un superbe t-shirt de l’APIUS! ♥</p>
-
-                    <p><a href="http://niclupien.wufoo.com/forms/z7x3x5/" target="_blank">Contactez-nous</a> pour manifester votre intérêt!</p>
-                </div>
-            </div>
-
-            <div class="row" id="conferenciers">
-                <div class="col-lg-6">
-                    <h4>Conférienciers</h4>
-
-                    <p>Si vous aimeriez parler d’un sujet qui vous passionne en lien avec le langage Python, que vous adorez partager vos connaissances et faire découvrir des technologies aux autres, vivez une expérience vertigineuse et gratifiante en devenant l’un de nos conférenciers.
-                    </p>
-
-                    <p><a href="http://niclupien.wufoo.com/forms/z7x3x5/" target="_blank">Contactez-nous</a> pour nous faire part de votre désir et de vos idées.</p>
-                </div>
-
-                <div class="col-lg-6">
-                    <img src="images/conferenciers.png" alt="conferenciers" />
-                </div>
-            </div>
-
-
-            <div class="footer">
-                <div class="col-lg-6">
-                    <p>♥ de l'équipe de l'APIUS</p>
-                </div>
-
-                <div class="col-lg-6 text-right">
-                    <p>Contact : <a href="mailto:info@apius.ca">info@apius.ca</a></p>
-                </div>
-            </div>
-
+    <div class="row">
+      <div class="col-md-6">
+        <div class="row">
+          <div class="col-md-3">
+            <img src="images/python.png" width="100" />
+          </div>
+          <div class="col-md-9">
+            <h3>David Cormier</h3>
+            <p>Savoir Faire Linux</p>
+          </div>
         </div>
 
+        <div class="row">
+          <div class="col-md-3">
+            <img src="images/elef.jpg" width="100" />
+          </div>
+          <div class="col-md-9">
+            <h3>Eleftherios Garyfallidis</h3>
+            <p>Stagiaire postdoctoral à l'Université de Sherbrooke</p>
+          </div>
+        </div>
 
-        <!-- build:js scripts/vendor.js -->
-        <!-- bower:js -->
-        <script src="bower_components/jquery/jquery.js"></script>
-        <!-- endbower -->
-        <!-- endbuild -->
+        <div class="row">
+          <div class="col-md-3">
+            <img src="images/marc.jpg" width="100" />
+          </div>
+          <div class="col-md-9">
+            <h3>Marc-Antoine Ruel</h3>
+            <p>Google Montréal</p>
+          </div>
+        </div>
 
-        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-        <script>
-            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-            e.src='//www.google-analytics.com/analytics.js';
-            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-            ga('create','UA-42191917-1');ga('send','pageview');
+        <div class="row">
+          <div class="col-md-3">
+            <img src="images/mathieu.jpg" width="100" />
+          </div>
+          <div class="col-md-9">
+            <h3>Mathieu Leduc-Hamel</h3>
+            <p>Senior Developer at Ajah &amp; PyCon USA 2014 Co-Chair at PyCon USA</p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-3">
+            <img src="images/maxime.jpg" width="100" />
+          </div>
+          <div class="col-md-9">
+            <h3>Maxime Descoteaux</h3>
+            <p>Professeur de l'Université de Sherbrooke</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="row">
+          <div class="col-md-3">
+            <img src="images/edward.jpg" width="100" />
+          </div>
+          <div class="col-md-9">
+            <h3>Edward Ocampo-Gooding</h3>
+            <p>Teacher &amp; Talent Scout at Shopify</p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-3">
+            <img src="images/greg.jpg" width="100" />
+          </div>
+          <div class="col-md-9">
+            <h3>Gregory Whiteside</h3>
+            <p>VP Engineering at PasswordBox</p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-3">
+            <img src="images/mathieu2.jpg" width="100" />
+          </div>
+          <div class="col-md-9">
+            <h3>Mathieu Larose</h3>
+            <p>Savoir Faire Linux</p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-3">
+            <img src="images/olivier.jpg" width="100" />
+          </div>
+          <div class="col-md-9">
+            <h3>Olivier Beaulieu</h3>
+            <p>Lead Frontend Developer at PasswordBox</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="page-header anchor" id="commanditaires">
+      <h1>Commanditaires</h1>
+    </div>
+
+    <div class="row text-center sponsor">
+      <img src="images/google.jpg" width="500" />
+      <img src="images/passwordbox.png" width="300" />
+      <img src="images/shopify.png" width="300" />
+      <img src="images/sfl.png" width="200" />
+      <img src="images/axesnetwork.jpg" width="200" />
+
+      <img src="images/code_school.png" width="150" />
+      <img src="images/ages.png" width="100" />
+      <img src="images/recsus.png" width="100" />
+      <img src="images/usherbrooke.png" width="200" />
+    </div>
+
+    <div id="contact">
+      <div class="large-12 columns">
+        <h1></h1>
+        <div id="wufoo-z7x3x5">
+          Fill out my <a href="http://niclupien.wufoo.com/forms/z7x3x5">online form</a>.
+        </div>
+        <script type="text/javascript">
+          var z7x3x5;(function(d, t) {
+            var s = d.createElement(t), options = {
+              'userName':'niclupien',
+              'formHash':'z7x3x5',
+              'autoResize':true,
+              'height':'517',
+              'async':true,
+              'header':'show'};
+              s.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + 'wufoo.com/scripts/embed/form.js';
+              s.onload = s.onreadystatechange = function() {
+                var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return;
+                try { z7x3x5 = new WufooForm();z7x3x5.initialize(options);z7x3x5.display(); } catch (e) {}};
+                var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
+              })(document, 'script');
         </script>
+      </div>
+    </div>
 
-        <!-- build:js scripts/main.js -->
-        <script data-main="scripts/main" src="bower_components/requirejs/require.js"></script>
-        <!-- endbuild -->
+
+    <div class="page-header">
+    </div>
+
+    <div class="row">
+      <div class="footer">
+        &copy; APIUS 2013 - Tous droits réservés
+      </div>
+    </div>
+
+  </div>
+
+
+  <!-- build:js scripts/vendor.js -->
+  <!-- bower:js -->
+  <script src="bower_components/jquery/jquery.js"></script>
+  <script src="bower_components/sass-bootstrap/dist/js/bootstrap.js"></script>
+  <!-- endbower -->
+  <!-- endbuild -->
+
+  <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+  <script>
+    (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+      function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+    e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+    e.src='//www.google-analytics.com/analytics.js';
+    r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+    ga('create','UA-42191917-1');ga('send','pageview');
+
+    $(document).ready(function() {
+
+
+    });
+  </script>
+
+  <!-- build:js scripts/main.js -->
+  <script data-main="scripts/main" src="bower_components/requirejs/require.js"></script>
+  <!-- endbuild -->
 </body>
 </html>
